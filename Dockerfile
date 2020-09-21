@@ -18,7 +18,7 @@ RUN apt-get update \
 COPY apache-conf /etc/apache2/apache2.conf
 
 WORKDIR /var/www/html
-RUN echo "THIS WORKS VERSION 1 " > index.html
+RUN echo "THIS WORKS VERSION 2 " > index.html
  
 # Expose Apache
 EXPOSE 80
